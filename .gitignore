@@ -1,0 +1,45 @@
+# 🚫 Maven / Build
+target/
+*.jar
+*.war
+*.ear
+
+# 🚫 Logs
+*.log
+
+# 🚫 OS Files
+.DS_Store
+Thumbs.db
+
+# 🚫 IDE Files
+.idea/
+*.iml
+
+# 🚫 VS Code
+.vscode/
+
+# 🚫 Eclipse
+.project
+.classpath
+.settings/
+
+# 🚫 Java compiled files
+*.class
+
+# 🚫 Node (if frontend used separately)
+node_modules/
+
+# 🚫 Environment files
+.env
+
+# 🚫 Temporary files
+*.tmp
+*.swp
+
+# 🚫 Maven Wrapper (optional - you can keep if needed)
+#mvnw
+#mvnw.cmd
+
+# 🚫 Database files (if file-based DB used)
+*.db
+*.mv.db

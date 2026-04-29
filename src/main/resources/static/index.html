@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student CRUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-shape background-shape-1"></div>
+    <div class="background-shape background-shape-2"></div>
+
+    <main class="app-shell">
+        <section class="hero-card">
+             <h1>Student Management</h1>
+        </section>
+
+        <section class="content-grid">
+            <div class="panel form-panel">
+                <div class="panel-header">
+                    <h2>Student Form</h2>
+               </div>
+
+                <form id="studentForm" class="student-form">
+                    <input type="hidden" id="studentId">
+
+                    <label>
+                        <span>Name</span>
+                        <input type="text" id="name" placeholder="Enter student name" required>
+                    </label>
+
+                    <label>
+                        <span>Email</span>
+                        <input type="email" id="email" placeholder="Enter student email" required>
+                    </label>
+
+                    <label>
+                        <span>Course</span>
+                        <input type="text" id="course" placeholder="Enter course name" required>
+                    </label>
+
+                    <div class="form-actions">
+                        <button type="submit" id="submitBtn" class="primary-btn">Add Student</button>
+                        <button type="button" id="cancelBtn" class="secondary-btn hidden">Cancel Edit</button>
+                    </div>
+                </form>
+
+                <div id="message" class="message" aria-live="polite"></div>
+            </div>
+
+            <div class="panel table-panel">
+                <div class="panel-header table-header">
+                    <div>
+                        <h2>Student List</h2>
+                    </div>
+                    <button id="refreshBtn" class="secondary-btn">Refresh</button>
+                </div>
+
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Course</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="studentsTableBody">
+                            <tr>
+                                <td colspan="5" class="empty-state">Loading students...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

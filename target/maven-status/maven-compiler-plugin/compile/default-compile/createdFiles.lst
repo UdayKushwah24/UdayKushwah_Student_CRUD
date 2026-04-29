@@ -1,0 +1,8 @@
+com\example\studentcrud\controller\StudentController.class
+com\example\studentcrud\StudentCrudApplication.class
+com\example\studentcrud\model\Student.class
+com\example\studentcrud\repository\StudentRepository.class
+com\example\studentcrud\config\WebConfig.class
+com\example\studentcrud\service\StudentServiceImpl.class
+com\example\studentcrud\repository\JdbcStudentRepository.class
+com\example\studentcrud\service\StudentService.class

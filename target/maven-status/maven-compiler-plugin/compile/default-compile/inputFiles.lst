@@ -1,0 +1,8 @@
+E:\Student_CRUD\src\main\java\com\example\studentcrud\config\WebConfig.java
+E:\Student_CRUD\src\main\java\com\example\studentcrud\controller\StudentController.java
+E:\Student_CRUD\src\main\java\com\example\studentcrud\model\Student.java
+E:\Student_CRUD\src\main\java\com\example\studentcrud\repository\JdbcStudentRepository.java
+E:\Student_CRUD\src\main\java\com\example\studentcrud\repository\StudentRepository.java
+E:\Student_CRUD\src\main\java\com\example\studentcrud\service\StudentService.java
+E:\Student_CRUD\src\main\java\com\example\studentcrud\service\StudentServiceImpl.java
+E:\Student_CRUD\src\main\java\com\example\studentcrud\StudentCrudApplication.java
